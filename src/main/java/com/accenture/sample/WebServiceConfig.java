@@ -46,7 +46,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 		return new SimpleXsdSchema(new ClassPathResource("customer.xsd"));
 	}
 
-	@Bean
+	/*@Bean
 	public PayloadLoggingInterceptor payloadLoggingInterceptor() {
 		return new PayloadLoggingInterceptor();
 	}
@@ -79,5 +79,5 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 		interceptors.add(payloadLoggingInterceptor());
 		interceptors.add(payloadValidatingInterceptor());
 		interceptors.add(securityInterceptor());
-	}
+	}*/
 }
